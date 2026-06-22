@@ -172,7 +172,7 @@ export default function Home() {
       {allitems && (
         <div>
           {empty && (
-            <h1 className="text-center mt-62 text-xl lg:text-2xl">
+            <h1 className="text-center mt-85 text-xl lg:text-2xl">
               List is Empty🕸️
             </h1>
           )}
@@ -261,9 +261,9 @@ export default function Home() {
 
       {/* Recycle Bin */}
       {!allitems && (
-        <div className="flex flex-col w-full max-w-3xl mx-auto px-3 pb-24">
+        <div className="flex flex-col mt-13 lg:mt-23 w-full max-w-3xl mx-auto px-3 pb-24">
           {rempty && (
-            <h1 className="text-center mt-62 text-xl lg:text-2xl">
+            <h1 className="text-center mt-85 text-xl lg:text-2xl">
               Recycle Bin is Empty🕸️
             </h1>
           )}
